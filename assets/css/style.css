@@ -1,0 +1,179 @@
+/* Global */
+* {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+body {
+    background-color: #FFB4A2;
+}
+
+.head ul {
+    text-align: center;
+}
+
+.head li {
+    display: inline-block;
+    font-size: 20pt;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 220px;
+}
+
+.head a {
+    color: white;
+    
+}
+
+header {
+    background-color: #b5838d;
+    display: fixed;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    color: white;
+}
+
+/* Main Page */
+
+h1 {
+    font-size: 110pt;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 190px;
+}
+
+.about {
+    font-size: 40pt;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 60px 30px 30px;
+    display: block;
+}
+
+.summ {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 5%;
+}
+
+.summ img {
+    width: 50%;
+    border: 25px dashed;
+    margin: 20px;
+}
+
+.summ p {
+    font-size: 15pt;
+    padding: 20px;
+    border: 10px dashed;
+    max-width: 70%;
+}
+
+.links h2 {
+    font-size: 40pt;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 60px 30px 30px;
+    display: block;
+}
+
+.links ul{
+    display: block;
+    text-align: center;
+}
+
+.links li {
+    font-size: 20pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding: 50px;
+    margin: 5px;
+    width: 30%;
+    height: auto;
+    display: inline-block;
+}
+
+.links .iorv {
+    background-color: #41272c;
+}
+
+.links .cont {
+    background-color: #6d6875;
+}
+
+.links {
+    margin-bottom: 20px;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #b5838d;
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    display: block;
+    color: white;
+}
+
+/* Art Projects Page */
+
+.arttitle {
+    margin-top: 150px;
+    font-size: 50pt;
+}
+
+.proj1 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15pt;
+    margin: 20px;
+    text-align: center;
+}
+
+.proj1 img{
+    width: 50%;
+    max-width: 800px;
+    border: 15px dashed;
+}
+
+.proj1 h3{
+    text-align: center;
+}
+
+.proj1 p {
+    margin: 20px;
+}
+
+.proj2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15pt;
+    margin: 20px;
+    text-align: center;
+}
+
+.proj2 img{
+    width: 50%;
+    max-width: 800px;
+    border: 15px dashed;
+}
+
+.proj2 h3{
+    text-align: center;
+}
+
+.proj2 p {
+    margin: 20px;
+}
+

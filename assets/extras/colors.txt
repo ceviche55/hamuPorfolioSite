@@ -1,0 +1,23 @@
+/* CSV */
+ffcdb2,ffb4a2,e5989b,b5838d,6d6875
+
+/* With # */
+#ffcdb2, #ffb4a2, #e5989b, #b5838d, #6d6875
+
+/* Array */
+["ffcdb2","ffb4a2","e5989b","b5838d","6d6875"]
+
+/* Object */
+{"Apricot":"ffcdb2","Melon":"ffb4a2","Pastel Pink":"e5989b","English Lavender":"b5838d","Old Lavender":"6d6875"}
+
+/* Extended Array */
+[{"name":"Apricot","hex":"ffcdb2","rgb":[255,205,178],"cmyk":[0,20,30,0],"hsb":[21,30,100],"hsl":[21,100,85],"lab":[86,14,20]},{"name":"Melon","hex":"ffb4a2","rgb":[255,180,162],"cmyk":[0,29,36,0],"hsb":[12,36,100],"hsl":[12,100,82],"lab":[80,25,20]},{"name":"Pastel Pink","hex":"e5989b","rgb":[229,152,155],"cmyk":[0,34,32,10],"hsb":[358,34,90],"hsl":[358,60,75],"lab":[71,29,10]},{"name":"English Lavender","hex":"b5838d","rgb":[181,131,141],"cmyk":[0,28,22,29],"hsb":[348,28,71],"hsl":[348,25,61],"lab":[60,21,2]},{"name":"Old Lavender","hex":"6d6875","rgb":[109,104,117],"cmyk":[7,11,0,54],"hsb":[263,11,46],"hsl":[263,6,43],"lab":[45,5,-7]}]
+
+/* XML */
+<palette>
+  <color name="Apricot" hex="ffcdb2" r="255" g="205" b="178" />
+  <color name="Melon" hex="ffb4a2" r="255" g="180" b="162" />
+  <color name="Pastel Pink" hex="e5989b" r="229" g="152" b="155" />
+  <color name="English Lavender" hex="b5838d" r="181" g="131" b="141" />
+  <color name="Old Lavender" hex="6d6875" r="109" g="104" b="117" />
+</palette>
